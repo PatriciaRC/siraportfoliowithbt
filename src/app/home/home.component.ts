@@ -3,12 +3,18 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <p>
-      home works!
-    </p>
+   <div class="bg-image">
+   </div>
   `,
-  styles: [
-  ]
+  styles: [`
+  .bg-image{
+    background-image: url('/assets/img/sirahome.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+  `]
 })
 export class HomeComponent implements OnInit {
 

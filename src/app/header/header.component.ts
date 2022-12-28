@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header',
   template: `
-   <nav class="nav justify-content-end mt-5">
+   <nav class="nav justify-content-end mt-5 fixed-top">
   <a class="nav-link mr-2" routerLink="/portfolio">Portfolio</a>
   <a class="nav-link mr-2" routerLink="/contact">Contact</a>
   <a class="nav-link mr-4" routerLink="/about">About me</a>
